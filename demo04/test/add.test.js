@@ -1,3 +1,4 @@
+/*es 6*/
 import add from '../src/add.js';
 import chai from 'chai';
 

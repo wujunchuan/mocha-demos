@@ -9,4 +9,7 @@ describe('加法函数的测试', function() {
   it('任何数加0应该等于自身', function() {
     expect(add(1, 0)).to.be.equal(1);
   });
+  it('1+2应该等于3',function(){
+    expect(add(1,2)).to.be.equal((3));
+  });
 });
