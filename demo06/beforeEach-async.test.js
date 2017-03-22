@@ -4,6 +4,7 @@ describe("Hook示例", function(){
   var foo = false;
 
   beforeEach(function(done){
+    // 在beforeEach中使用异步操作
     setTimeout(function(){
       foo = true;
       done();
